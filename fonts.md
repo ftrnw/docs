@@ -42,7 +42,7 @@ We use this font for the majority of our web text, including all paragraphs and 
 
 ### Free Alternatives
 
-Typewolf suggests [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin) as an alternative to Halyward. It appears to be a close match, and at regular weight appears to match the 300 weight Halyard that we use.
+Typewolf suggests [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin) as an alternative to Halyward. It appears to be a close match, and at regular weight appears to match the 300 weight Halyard that we use. Here are the three options: Halyard regular, light, and then Libre Franklin regular.
 
 ![font-halyard-regular](./images/font-halyard-regular.png)
 ![font-halyard-light](./images/font-halyard-light.png)
