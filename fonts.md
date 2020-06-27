@@ -36,7 +36,7 @@ Typewolf suggests [Archivo Narrow](https://fonts.google.com/specimen/Archivo+Nar
 
 ### Usage
 
-We use this font for the majority of our web text, including all paragraphs and some headers and buttons. I've noticed some instances where we lighten the weight of the font to 300 weight (400 is normal), but this is not a consistent practice.
+We use this font for the majority of our web text, including all paragraphs and some headers and buttons. I've noticed some instances where we lighten the weight of the font to 300 weight (400 is normal), but this is not a consistent practice. 
 
 ![text](./images/text.png)
 
@@ -47,3 +47,31 @@ Typewolf suggests [Libre Franklin](https://fonts.google.com/specimen/Libre+Frank
 ![font-halyard-regular](./images/font-halyard-regular.png)
 ![font-halyard-light](./images/font-halyard-light.png)
 ![font-librefranklin-regular](./images/font-librefranklin-regular.png)
+
+### CSS
+```css
+@font-face { 
+    font-family:"Druk Super";
+    font-style:normal;
+    font-weight:400;
+    src:url("FILE.woff") format("woff")
+}
+@font-face { 
+    font-family:"Halyard";
+    font-style:normal;
+    font-weight:300;
+    src:url("FILE.woff2") format("woff2")
+}
+@font-face { 
+    font-family:"Halyard";
+    font-style:normal;
+    font-weight:400;
+    src:url("FILE.otf") format("opentype")
+}
+@font-face { 
+    font-family:"Halyard";
+    font-style:normal;
+    font-weight:600;
+    src:url("FILE.otf") format("opentype")
+}
+```

@@ -2,7 +2,7 @@ version: 1.0
 
 # Config
 
-* $base_value: 18px;
+* $base_value: 16px;
 * $device_mobile: 750px;
 
 ---
@@ -43,7 +43,7 @@ version: 1.0
 
 ### Paragraph
 
-* 1rem
+* 1.125rem
 
 | | Font | Size | Color | Weight | Spacing | Margin | LineHeight |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -58,7 +58,7 @@ version: 1.0
 
 | | Font | Size | Color | Weight | Spacing | Margin | LineHeight |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| (D) | Druk Super | 54px | black | normal | normal | 0 0 22px 0 | 0.97 |
+| (D) | Druk Super | 48px | black | normal | normal | 0 0 22px 0 | 0.97 |
 | (M) | "" | "" | "" | "" | "" | "" | "" |  
 
 * text-transform: uppercase;
@@ -89,20 +89,41 @@ version: 1.0
 
 | | Font | Size | Color | Weight | Spacing | Margin | LineHeight |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| (D) | Halyard | 18px | black | normal | 0.1em | 0 0 22px 0 | normal |
+| (D) | Halyard | 16px | black | normal | 0.1em | 0 0 22px 0 | normal |
 | (M) | "" | "" | "" | "" | "" | "" | "" |  
 
 * text-transform: uppercase;
 
 ### H5
 
-* 1rem
+* 1.875rem
 
 | | Font | Size | Color | Weight | Spacing | Margin | LineHeight |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| (D) | Halyard | 18px | black | bold | normal | 0 0 22px 0 | normal |
+| (D) | Halyard | 30px | black | bold | normal | 0 0 22px 0 | normal |
 | (M) | "" | "" | "" | "" | "" | "" | "" |  
+
+### H6
+
+* 1.5rem
+
+| | Font | Size | Color | Weight | Spacing | Margin | LineHeight |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| (D) | Halyard | 24spx | black | bold | normal | 0 0 22px 0 | normal |
+| (M) | "" | "" | "" | "" | "" | "" | "" |  
+
 
 ---
 
 ## Buttons
+
+base 0.75 / 16px
+medium 1rem / 18px
+large 1.25rem / 20px
+
+border: 0.235em solid currentColor;
+padding: 0.125em 0.5em 0.15em;
+line-height: 1.5;
+font-family: "Halyard";
+font-weight: 600;
+
