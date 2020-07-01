@@ -65,7 +65,7 @@ version: 1.0
 
 ### H2
 
-* 2rem
+* 2.25rem
 
 | | Font | Size | Color | Weight | Spacing | Margin | LineHeight |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -76,26 +76,6 @@ version: 1.0
 
 ### H3
 
-* 2rem
-
-| | Font | Size | Color | Weight | Spacing | Margin | LineHeight |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| (D) | Halyard | 36px | black | bold | normal | 0 0 22px 0 | normal |
-| (M) | "" | "" | "" | "" | "" | "" | "" |  
-
-### H4
-
-* 1rem
-
-| | Font | Size | Color | Weight | Spacing | Margin | LineHeight |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| (D) | Halyard | 16px | black | normal | 0.1em | 0 0 22px 0 | normal |
-| (M) | "" | "" | "" | "" | "" | "" | "" |  
-
-* text-transform: uppercase;
-
-### H5
-
 * 1.875rem
 
 | | Font | Size | Color | Weight | Spacing | Margin | LineHeight |
@@ -103,13 +83,33 @@ version: 1.0
 | (D) | Halyard | 30px | black | bold | normal | 0 0 22px 0 | normal |
 | (M) | "" | "" | "" | "" | "" | "" | "" |  
 
-### H6
+### H4
 
 * 1.5rem
 
 | | Font | Size | Color | Weight | Spacing | Margin | LineHeight |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| (D) | Halyard | 24spx | black | bold | normal | 0 0 22px 0 | normal |
+| (D) | Halyard | 24px | black | normal | 0.1em | 0 0 22px 0 | normal |
+| (M) | "" | "" | "" | "" | "" | "" | "" |  
+
+* text-transform: uppercase;
+
+### H5
+
+* 1.25rem
+
+| | Font | Size | Color | Weight | Spacing | Margin | LineHeight |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| (D) | Halyard | 20px | black | bold | normal | 0 0 22px 0 | normal |
+| (M) | "" | "" | "" | "" | "" | "" | "" |  
+
+### H6
+
+* 1.125rem
+
+| | Font | Size | Color | Weight | Spacing | Margin | LineHeight |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| (D) | Halyard | 18spx | black | bold | normal | 0 0 22px 0 | normal |
 | (M) | "" | "" | "" | "" | "" | "" | "" |  
 
 
